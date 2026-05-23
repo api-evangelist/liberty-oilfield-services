@@ -1,0 +1,205 @@
+name: Liberty Energy
+description: |
+  Liberty Energy Inc (NYSE: LBRT), formerly Liberty Oilfield Services, is a Denver-based
+  energy services company. It is one of the largest providers of completion services
+  (hydraulic fracturing, wireline, sand and logistics) to onshore oil, natural gas, and
+  enhanced geothermal producers in North America, and it is rapidly pivoting into
+  distributed power generation for data centers and AI infrastructure via its Liberty
+  Power Innovations (LPI) subsidiary. Founded in 2011 by Chris Wright, who left in 2025
+  to become the 17th US Secretary of Energy under the Trump administration. Ron Gusek
+  is now President and CEO. The company does not publish any public developer APIs;
+  this profile documents the organization, its proprietary internal platforms
+  (FracTrends, Sentinel, digiTechnologies), and the Liberty Power data center pivot.
+url: https://github.com/api-evangelist/liberty-oilfield-services
+humanURL: https://libertyenergy.com
+image: https://libertyenergy.com/wp-content/uploads/2022/06/liberty-energy-logo.png
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.18'
+type: Index
+tags:
+  - Energy
+  - Oilfield Services
+  - Hydraulic Fracturing
+  - Frac
+  - Wireline
+  - Sand And Logistics
+  - Power Generation
+  - Natural Gas
+  - Data Centers
+  - AI Infrastructure
+  - Distributed Power
+  - Geothermal
+  - Battery Storage
+  - Public Company
+  - Fortune 1000
+
+apis: []
+
+common:
+  - type: WebSite
+    url: https://libertyenergy.com
+  - type: AboutUs
+    url: https://libertyenergy.com/about/
+  - type: Leadership
+    url: https://libertyenergy.com/about/leadership/
+  - type: ContactUs
+    url: https://libertyenergy.com/contact/
+  - type: News
+    url: https://libertyenergy.com/news/
+  - type: InvestorRelations
+    url: https://investors.libertyenergy.com
+  - type: Careers
+    url: https://libertyenergy.com/careers/
+  - type: ResourceLibrary
+    url: https://libertyenergy.com/resource-library/
+  - type: ESG
+    url: https://libertyenergy.com/esg/
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Liberty_Energy
+  - type: StockTicker
+    url: https://www.nyse.com/quote/XNYS:LBRT
+    title: NYSE LBRT
+
+properties:
+  - type: Organization
+    data:
+      legalName: Liberty Energy Inc
+      formerName: Liberty Oilfield Services
+      ticker: NYSE:LBRT
+      founded: 2011
+      ipo: 2018-01
+      headquarters: 950 17th Street, Suite 2400, Denver, CO 80202
+      phone: 303.515.2800
+      ceo: Ron Gusek
+      cfo: Michael Stock
+      founder: Chris Wright
+      founderNote: |
+        Chris Wright founded Liberty in 2011 and led it as CEO through the IPO,
+        the OneStim acquisition, and the Liberty Power Innovations launch.
+        In 2025 he was confirmed as the 17th United States Secretary of Energy
+        in the Trump administration, exiting the company.
+      revenue2025: 4.01B USD
+      netIncome2025: 147.87M USD
+      fortuneRank: Fortune 1000
+
+  - type: BusinessSegments
+    data:
+      - name: Completion Services
+        description: |
+          Hydraulic fracturing, wireline, and sand & logistics for onshore oil
+          and gas producers. Liberty is the second-largest frac service provider
+          in North America after the December 2020 OneStim acquisition from
+          Schlumberger.
+        services:
+          - Hydraulic Fracturing (digiFrac electric fleets, digiPrime hybrid)
+          - Wireline (100% greaseless modular systems with cloud data)
+          - Sand and Logistics (PropX containerized sand, Freedom Proppant)
+      - name: Liberty Power Innovations (LPI)
+        description: |
+          Launched April 2023. Distributed natural-gas-fueled power generation,
+          CNG fueling, field gas processing, grid-interconnected backup, and
+          24/7 operations management. Originally built to vertically integrate
+          fueling for Liberty's own frac fleets, now pivoting aggressively into
+          dispatchable power for data centers and AI infrastructure.
+        offerings:
+          - Power as a Service
+          - CNG fueling delivery
+          - Field gas processing
+          - Grid-interconnected backup
+          - Modular natural gas generation (baseload, backup, peak)
+      - name: Technology & Manufacturing
+        description: |
+          digiTechnologies (electric and hybrid fleets), Liberty Advanced
+          Equipment Technology (LAET) design and manufacturing, production
+          and engineering services, maintenance and emissions solutions.
+
+  - type: PowerPivot
+    title: Liberty Power / Data Center & AI Infrastructure Pivot
+    data:
+      summary: |
+        Liberty is transitioning from a pure oilfield-services pure-play into a
+        hybrid completions + distributed-power company. Liberty Power Innovations
+        (LPI) is being marketed as a dispatchable power provider for hyperscale
+        data centers and AI compute build-outs. Power is being sold as PaaS
+        with on-site natural gas generation behind the meter.
+      keyDeals:
+        - partner: Vantage Data Centers
+          date: 2026-01
+          scope: Strategic partnership to develop and operate 1 GW of power solutions for next-generation data centers
+        - partner: Bergen Engines
+          date: 2026-05
+          scope: Over 500 MW of on-site generation capacity to support large-scale data center developments
+        - partner: Oklo Inc
+          date: 2025-07
+          scope: Next-generation integrated power solution launch (advanced nuclear + nat gas)
+        - partner: IMG Energy Solutions
+          date: 2025-03
+          scope: Acquisition extending LPI's distributed power footprint
+      strategicInvestments:
+        - target: Fervo Energy
+          date: 2022-07
+          thesis: Next-generation enhanced geothermal energy
+        - target: Natron Energy
+          date: 2022-09
+          thesis: Sodium-ion battery manufacturing for grid storage
+
+  - type: ProprietaryPlatforms
+    description: |
+      Internal / customer-facing software products. These are NOT public APIs;
+      they are operational platforms surfaced to Liberty customers via portals
+      and post-job reports. No SDKs, OpenAPI, or developer portal exist.
+    data:
+      - name: FracTrends
+        description: Proprietary viewer over a 60,000+ well database for real-time frac optimization.
+      - name: Sentinel
+        description: Sand/proppant logistics platform that uses real-time data to forecast volumes and pre-empt logistics issues.
+      - name: digiTechnologies
+        description: Modular electric and hybrid frac fleet control system, marketed as bringing "advanced AI technology" to the frac site.
+      - name: digiFrac
+        description: Fully electric hydraulic fracturing pump fleet (field tested 2021).
+      - name: digiPrime
+        description: Hybrid natural-gas fracturing fleets.
+      - name: digiFleets
+        description: Fleet family delivering "50% lower emissions vs. conventional Tier IV diesel."
+
+  - type: Locations
+    data:
+      headquarters: Denver, CO
+      regionalOffices:
+        - Houston, TX
+        - Dallas / Plano, TX
+        - Oklahoma City, OK
+        - Calgary, AB
+      basinOffices:
+        - Midland, TX (Permian)
+        - Henderson, CO (DJ Basin)
+        - Gillette, WY (Powder River)
+        - Williston, ND (Bakken)
+        - Farmington, NM
+        - Vernal, UT
+        - Cibolo, TX (South Texas / Eagle Ford)
+        - Shreveport, LA (Haynesville)
+        - Grande Prairie, AB
+        - Red Deer, AB
+        - Whitefish, MT
+
+  - type: DeveloperResources
+    title: Public Developer Surface
+    data:
+      publicAPIs: 0
+      openAPISpecs: 0
+      sdks: 0
+      developerPortal: null
+      githubOrg: null
+      status: |
+        Liberty Energy publishes no public APIs, no SDKs, no developer portal,
+        and operates no discoverable GitHub organization. All software
+        (FracTrends, Sentinel, digiTechnologies) is internal/operational and
+        delivered to customers via web portals and reports, not programmatic
+        interfaces.
+
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com

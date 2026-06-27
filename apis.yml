@@ -37,7 +37,7 @@ tags:
 apis: []
 
 common:
-  - type: WebSite
+  - type: Website
     url: https://libertyenergy.com
   - type: AboutUs
     url: https://libertyenergy.com/about/

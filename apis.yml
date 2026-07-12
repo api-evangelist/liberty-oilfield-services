@@ -37,6 +37,8 @@ tags:
 apis: []
 
 common:
+  - type: DomainSecurity
+    url: security/liberty-oilfield-services-domain-security.yml
   - type: Website
     url: https://libertyenergy.com
   - type: AboutUs
@@ -198,6 +200,9 @@ properties:
         (FracTrends, Sentinel, digiTechnologies) is internal/operational and
         delivered to customers via web portals and reports, not programmatic
         interfaces.
+
+  - url: https://libertyenergy.com/feed/
+    type: Blog
 
 maintainers:
   - FN: Kin Lane

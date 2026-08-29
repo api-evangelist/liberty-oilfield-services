@@ -12,6 +12,17 @@ description: |
   (FracTrends, Sentinel, digiTechnologies), and the Liberty Power data center pivot.
 url: https://github.com/api-evangelist/liberty-oilfield-services
 humanURL: https://libertyenergy.com
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
